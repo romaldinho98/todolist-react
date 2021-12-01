@@ -1,0 +1,10 @@
+h2 {
+    margin: 0 auto;
+    color:rgb(37,44,66);
+}
+  
+hr {
+    border: none; 
+    background-color: black;
+    height: 2px;
+}

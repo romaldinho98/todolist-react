@@ -1,0 +1,9 @@
+body {
+  margin: 20px 0;
+  font-family: 'Gilroy-Medium', sans-serif;
+  background-color:rgb(37,44,66);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

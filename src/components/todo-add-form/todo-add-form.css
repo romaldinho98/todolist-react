@@ -1,0 +1,35 @@
+.add-todo {
+    display: flex;
+    align-items: center;
+}
+  
+.message {
+    height: 50px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+  
+input[type="text"]{
+    font-family: 'Gilroy-Medium', sans-serif;
+    padding-left: 10px;
+    width: 363px;
+    color: rgb(37,44,66);
+}
+  
+.add-item {
+    background-color: rgb(247,149,149);
+    border: 2px solid rgb(37,44,66);
+    border-radius: 8px;
+    width: 46px;
+    height: 43px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin: 0 auto;
+}
+  
+.add-item:hover {
+    background-color: rgb(253, 150, 150);
+}

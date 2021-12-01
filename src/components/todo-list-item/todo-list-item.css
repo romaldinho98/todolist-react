@@ -1,0 +1,49 @@
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: rgb(131, 121, 160);
+}
+  
+li {
+    list-style-type: none;
+}
+  
+.todo-task {
+    color: rgb(76,65,107);
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5px;
+}
+  
+.important {
+    color: rgb(235, 81, 81);
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 5px;
+}
+  
+.trash {
+    cursor: pointer;
+    display: none;
+    background: url(https://icons-for-free.com/iconfiles/png/512/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588.png) no-repeat;
+    background-size: 19px;
+    width: 28px;
+    height: 28px;
+    float: right;
+    margin-top: 3px;
+}
+  
+li:hover .trash {
+    display: block;
+}
+  
+.trash:hover {
+    background: url(https://icons-for-free.com/iconfiles/png/512/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588.png) no-repeat;
+    background-size: 20px;
+    width: 28px;
+    height: 28px;
+    margin-top: 3px;
+    float: right;
+}
+  
